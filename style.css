@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #000;
+    /* Black theme */
+    color: #fff;
+}
+
+/* Navbar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #000;
+    cursor: pointer;
+}
+
+.nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.order {
+    background: red;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    gap: 20;
+}
+
+/* Hero */
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+/* Menu cards */
+.menu {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.Salt {
+    float: center;
+}
+
+.main {
+    cursor: pointer;
+    gap: 40px;
+}
+
+.child1 {
+    cursor: pointer;
+    gap: 50;
+}
+
+.child2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.order {
+    cursor: pointer;
+}
+
+.mass {
+    cursor: pointer;
+    background: red;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    gap: 10;
+}
